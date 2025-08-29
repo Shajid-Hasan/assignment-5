@@ -1,6 +1,5 @@
 # What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 ans :
-// getElementById
 document.getElementById() selector type is only (id), it returns single element 
 Ex: 
       <h1 id="my-dream">Full Stack Web Developer Is My Dream</p>
