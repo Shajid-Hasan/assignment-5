@@ -5,13 +5,11 @@ Ex:
       <h1 id="my-dream">Full Stack Web Developer Is My Dream</p>
       const myDream = document.getElementById('my-dream')
       
-// getElementByClassName
 document.getElementByClassName() selector type is only (class), it returns single element 
 Ex:
       <h1 class="my-dream">Full Stack Web Developer Is My Dream</p>
       const myDream = document.getElementByClassName('my-dream')
       
-// document.querySelector
 document.querySelector() selector type is any CSS selector, it returns First match Element
 Ex:
   <h1 id="title">Developer</h1>
@@ -24,7 +22,6 @@ Ex:
   const firstPara = document.querySelector(".text");
   console.log(firstPara.innerText);
 
-  //document.querySelectorAll
 document.querySelectorAll() selector type is any CSS selector, it returns NodeList (all match)
 Ex:
    <p class="text">This is paragraph 1</p>
